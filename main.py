@@ -73,5 +73,5 @@ if __name__ == "__main__":
     chart.set_metadata("bpm", chart_bpm)
     for i in tqdm(range(len(notes))):
         add_note(chart, notes[i][0], notes[i][1], bpm, is_twist, -1, is_midspin)
-    chart.save("output.adofai")
+    chart.save(path_output)
     
