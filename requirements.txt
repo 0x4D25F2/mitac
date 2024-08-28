@@ -1,0 +1,6 @@
+matplotlib=^3.3.4
+numpy=^1.19.2
+MIDIUtil=^1.2.1
+scipy=^1.5.2
+musicpy~=6.92
+tqdm~=4.66.5
