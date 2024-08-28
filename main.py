@@ -63,8 +63,8 @@ if __name__ == "__main__":
     path = input("请输入MIDI文件路径 >")
     path_output = input("请输入谱面文件保存路径 >")
     chart_bpm = float(input("请输入谱面的初始BPM >"))
-    is_twist = input("是否为每个砖块加上旋转(y/N)？ >") not in ["N", "n"]
-    is_midspin = input("是否使用中旋(Y/n)？ >") in ["Y", "y"]
+    is_twist = input("是否为每个砖块加上旋转(Y/n)？ >") not in ["N", "n"]
+    is_midspin = input("是否使用中旋(y/N)？ >") in ["Y", "y"]
     print()
     print("正在读取MIDI文件...")
     notes, bpm = read_midi(path)
